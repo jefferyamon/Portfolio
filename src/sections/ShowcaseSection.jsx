@@ -64,13 +64,15 @@ const ShowcaseSection = () => {
           </div>
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={projectRef2}>
-              <div className="image-wrapper bg-[#ffefdb]">
-                <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
-                />
-              </div>
-              <h2>Library Management Platform</h2>
+              <a href="https://jobify-9wjc.onrender.com/">
+                <div className="image-wrapper bg-[#ffefdb]">
+                  <img
+                    src="/images/jobify.png"
+                    alt="Library Management Platform"
+                  />
+                </div>
+              </a>
+              <h2>Job Tracking Platform</h2>
             </div>
             <div className="project" ref={projectRef3}>
               <div className="image-wrapper bg-[#ffe7eb]">
