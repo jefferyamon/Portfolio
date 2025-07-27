@@ -48,9 +48,11 @@ const ShowcaseSection = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div className="first-project-wrapper" ref={projectRef1}>
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde" />
-            </div>
+            <a href="">
+              <div className="image-wrapper">
+                <img src="/images/project1.png" alt="Ryde" />
+              </div>
+            </a>
             <div className="text-content">
               <h2 className="">
                 On-Demand Rides Made Simple with a Powerful, User-Friendly App
@@ -75,10 +77,12 @@ const ShowcaseSection = () => {
               <h2>Job Tracking Platform</h2>
             </div>
             <div className="project" ref={projectRef3}>
-              <div className="image-wrapper bg-[#ffe7eb]">
-                <img src="/images/project3.png" alt="YC directory" />
-              </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <a href="https://mern-food-project-45o9.onrender.com/">
+                <div className="image-wrapper bg-[#ffe7eb]">
+                  <img src="/images/food-app.png" alt="YC directory" />
+                </div>
+              </a>
+              <h2> A Startup Mern Food Ordering Website</h2>
             </div>
           </div>
         </div>
