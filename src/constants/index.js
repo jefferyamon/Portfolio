@@ -251,18 +251,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    url: "https://www.instagram.com/jefffferyamon/",
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    url: "https://www.facebook.com/jefffferyamon",
   },
   {
     name: "x",
     imgPath: "/images/x.png",
+    url: "https://x.com/JefferyAmon2",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://linkedin.com/in/jeffery-amon-a71832364",
   },
 ];
 
